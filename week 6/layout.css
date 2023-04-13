@@ -1,0 +1,94 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.parent{
+    width:100%;
+}
+.son{
+    width:50%;
+    float:left;
+}
+.daughter{
+    width:50%;
+    float: right;
+}
+h1{
+    background-color: darksalmon;
+    color: pink;
+    font-family:monospace;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-transform: lowercase;
+    font-family: cursive;
+    background-color:navajowhite;
+}
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+h1{
+    background-color: olive;
+    color: red;
+    font-size: 20px;
+}
+.son{ 
+    width:100%;
+}
+.daughter{
+    width:100%;
+}
+.son p{
+    width:100%;
+}
+.daughter img{
+    width:100%;
+    height: auto;
+}
+}
+/*tablet devices*/
+@media (min-width:482px) and (max-width:768px){
+    h1{
+        background-color: olive;
+        color: brown;
+        font-size: 20px;
+        text-align: center;
+    }
+    .son{ 
+        width:100%;
+    }
+    .daughter{
+        width:100%
+    }
+    .son p{
+        width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height: auto;
+    }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        background-color: olive;
+        color: red;
+        font-size: 20px;
+    }
+    .son{ 
+        width:100%;
+    }
+    .daughter{
+        width:100%;
+    }
+    .son p{
+        width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height: auto;
+    }
+
+}

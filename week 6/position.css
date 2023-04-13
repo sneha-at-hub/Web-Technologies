@@ -1,0 +1,41 @@
+.parent{
+    height: 1000vh;
+    background-color: coral;
+    width: 50%;
+    border:5px dashed brown;
+}
+
+.box{
+    width:300px;
+    height: 300px;
+    border:1px dotted peru;
+}
+
+.box1{
+    background-color: cornflowerblue;
+    position:static;
+}
+
+.box2{
+    background-color: orchid;
+    position:relative;
+    left:20px;
+}
+
+.box3{
+    background-color: orangered;
+    position:fixed;
+}
+
+.box4{
+    background-color: blueviolet;
+    
+}
+
+.box5{
+    background-color: turquoise;
+    position: sticky;
+    top: 0px;
+
+}
+

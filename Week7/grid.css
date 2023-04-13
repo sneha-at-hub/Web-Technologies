@@ -1,0 +1,28 @@
+
+.grid{
+    width:100%;
+    border:1px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{ 
+    background-color: thistle;
+}
+.box3{
+    background-color: chocolate;
+}
+.box4{
+    background-color: pink;
+}
+.box5{
+    background-color: salmon;
+}
+.box6{
+    background-color: blue;
+}
